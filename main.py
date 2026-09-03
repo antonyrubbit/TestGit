@@ -14,7 +14,7 @@ while True:
     else:
       print(f"YOU WON. Amount attempt: {attempt}")
       break
-  except VallueError:
+  except ValueError:
     print("This is not a number")
 
-print("Thaks for playing")
+print("Thanks for playing")
