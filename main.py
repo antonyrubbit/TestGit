@@ -12,7 +12,7 @@ while True:
     elif guess > secret:
       print("The guessed number is lower")
     else:
-      print("YOU WON")
+      print(f"YOU WON. Amount attempt: {attempt}")
       break
   except VallueError:
     print("This is not a number")
